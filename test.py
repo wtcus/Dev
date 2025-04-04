@@ -1,7 +1,9 @@
+import math
+from math import sqrt
 while True:
     A = eval(input("Введіть перше число:"))
     c = input("виберіть оператора: + - * / ")
-    B = float(input("Введіть друге число:"))
+    B = eval(input("Введіть друге число:"))
     if c == "+":
         print(A + B)
     elif c == "-":
